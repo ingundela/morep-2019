@@ -112,7 +112,7 @@ h6 {
 
 /*-- TOP MENU ROW --*/
 .top-menu {
-	background: #fff;;
+	background: #fff;
 	margin: 0 auto;
 	padding: 3px 0;
 }
@@ -121,16 +121,15 @@ h6 {
 	display: inline-block;
 	font-size: 0.9rem;
 	font-weight: 400;
-	text-align: inherit;;
+	text-align: inherit;
 }
 
 .navbar {
-	background-color:rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
 	padding: 0;
 	margin: 0;
 	position: relative;
 }
-
 .navbar-brand img {
 	width: 100px;
 }
@@ -141,7 +140,7 @@ h6 {
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.5s ease;
 	display: block;
-	color: #fff;;
+	color: #fff;
 	padding: 5px 0;
 	margin-left: 30px;
 	font-size: 1rem;
@@ -157,12 +156,10 @@ h6 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #cccccc;
-
+	color: rgba(255, 255, 255, .7);
 }
 
-/*--humberuger menu---*/
-
+/*--humburger menu--*/
 .navbar-toggler span {
 	color: #fff;
 	font-size: 25px;
@@ -183,33 +180,55 @@ h6 {
 	box-shadow: none;
 }
 
-/*---dropdown menu---*/
+/*---dropdown mega menu---*/
 
 .dropdown {
 	position: relative;
 	display: inline-block;
 }
+.megaMenu {
+    position: static;
+}
 
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #000;
-	min-width: 230px;
+	background: #000;
+	text-transform: capitalize;
+	color: #Fff;
+	min-width: 150px;
+	width: 200px;
 	-webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
 
-.dropdown-content a {
-	padding: 10px 16px;
+
+.mega_space {
+	padding: 15px 30px;;
+}
+
+.dropdown-content.shop_space {
+	width: 700px;
+}
+
+.dropdown-content a{
 	text-decoration: none;
 	text-transform: capitalize;
-	font-family: 'Raleway', sans-serif;
 	display: block;
-	font-weight: 600;
+	font-weight: 400;
 	color: #f0f0f0;
-	font-size: 0.85rem;
+	font-size: 1rem;
 }
+
+.dropdown-content h4 {
+	margin-top: 10px;
+	font-size: 1rem;
+	border-bottom: 1px solid #fff;
+	max-width: 100px;
+	font-weight: 400;
+}
+
 
 .arrow-right {
 	padding-right: 5px;
@@ -217,20 +236,22 @@ h6 {
 }
 
 .dropdown-content a:hover {
-	background-color: #eb0029;
+	color: rgba(255, 255, 255, .7);
+	border-bottom: 1px solid rgba(255, 255, 255, .7);
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-/*--carousel--*/
 
+
+/*--carousel--*/
 .ready {
 	padding: 40px 0;
-	-webkit-box-shadow: 0px 11px 18px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 11px 18px -6px rgba(0,0,0,0.75);
-box-shadow: 0px 11px 18px -6px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 11px 18px -6px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 11px 18px -6px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 11px 18px -6px rgba(0, 0, 0, 0.75);
 }
 .ready i {
 	font-size: 3.5rem;
@@ -253,17 +274,17 @@ box-shadow: 0px 11px 18px -6px rgba(0,0,0,0.75);
 }
 
 .phone-deals {
-	background-color: #F5F5F5;
-	-webkit-box-shadow: 1px -6px 18px -10px rgba(0,0,0,0.75);
--moz-box-shadow: 1px -6px 18px -10px rgba(0,0,0,0.75);
-box-shadow: 1px -6px 18px -10px rgba(0,0,0,0.75);
+	background-color: #f5f5f5;
+	-webkit-box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
 }
 
 .top_deals {
 	margin: 20px 0;
 }
 .wrap_top_deal {
-	background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+	background-image: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
 	color: #fff;
 }
 
@@ -285,9 +306,9 @@ box-shadow: 1px -6px 18px -10px rgba(0,0,0,0.75);
 }
 
 .offers {
--webkit-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
--moz-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
+	-webkit-box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
+	box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
 }
 
 .imagem_offer {
@@ -313,16 +334,16 @@ box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
 	margin: 0 200px;
 }
 
-.offer_content a{
+.offer_content a {
 	margin-top: 20px;
 }
 
 /*--Talk to us--*/
 
 .talk_us {
-	-webkit-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
--moz-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
-box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
+	-webkit-box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
+	-moz-box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
+	box-shadow: 0px -4px 16px -6px rgba(0, 0, 0, 0.67);
 }
 .talk_us_content {
 	margin-top: 50px;
@@ -361,15 +382,14 @@ box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
 }
 
 .simple-subscription-form {
- 
-  color: #fefefe;
+	color: #fefefe;
 
-  border-radius: 0;
+	border-radius: 0;
 }
 
 .simple-subscription-form .button {
-  margin-bottom: 0;
-  border-radius: 0 0 0 0;
+	margin-bottom: 0;
+	border-radius: 0 0 0 0;
 }
 
 .subscribe {
@@ -383,7 +403,7 @@ box-shadow: 0px -4px 16px -6px rgba(0,0,0,0.67);
 
 .button {
 	padding: 7px 40px;
-	background: linear-gradient(to right, #E5097A, #6D22E9, #00D7C7);
+	background: linear-gradient(to right, #e5097a, #6d22e9, #00d7c7);
 	color: #fff;
 	border: none;
 }
