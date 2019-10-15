@@ -41,11 +41,6 @@ h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
-.title_section {
-	font-weight: 700;
-	font-size: 1.5rem;
-}
-
 /*---Page Preloading---*/
 
 .spinner-ctn {
@@ -187,7 +182,7 @@ h6 {
 	display: inline-block;
 }
 .megaMenu {
-    position: static;
+	position: static;
 }
 
 .dropdown-content {
@@ -195,7 +190,7 @@ h6 {
 	position: absolute;
 	background: #000;
 	text-transform: capitalize;
-	color: #Fff;
+	color: #fff;
 	min-width: 150px;
 	width: 200px;
 	-webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -203,16 +198,15 @@ h6 {
 	z-index: 1;
 }
 
-
 .mega_space {
-	padding: 15px 30px;;
+	padding: 15px 30px;
 }
 
 .dropdown-content.shop_space {
 	width: 700px;
 }
 
-.dropdown-content a{
+.dropdown-content a {
 	text-decoration: none;
 	text-transform: capitalize;
 	display: block;
@@ -229,7 +223,6 @@ h6 {
 	font-weight: 400;
 }
 
-
 .arrow-right {
 	padding-right: 5px;
 	font-size: 15px;
@@ -243,8 +236,6 @@ h6 {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-
-
 
 /*--carousel--*/
 .ready {
@@ -273,6 +264,11 @@ h6 {
 	padding: 30px 0;
 }
 
+.title_section {
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-transform: none;
+}
 .phone-deals {
 	background-color: #f5f5f5;
 	-webkit-box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
@@ -288,21 +284,59 @@ h6 {
 	color: #fff;
 }
 
-.card-deck h3 {
-	font-size: 1.5rem;
+.box-deals {
+	border: 3px solid transparent;
+	transition: ease-in-out 0.1s;
+}
+.box-deals:hover {
+	border: 3px solid #eb0029;
+	text-decoration: none;
+}
+
+.box-deals a:hover {
+	text-decoration: none;
+}
+.card-title_small {
+	font-size: 1.2rem;
+	font-weight: 700;
+	display: block;
+}
+.card-title {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.card-title_small,
+.card-title {
+	color: #141414;
+}
+
+.card-title_small.cash_monthly {
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+
+.available_for {
+	text-transform: none;
+}
+
+.how_buy {
+	color: #eb0029;
 	font-weight: 600;
 }
 
-.card-text {
-	color: #000 !important;
-}
 .btn_ver_mais {
-	background: #eb0029;
+	background: rgb(235, 0, 41);
 	color: #fff;
 	margin-top: 30px;
 	font-weight: 400;
 	letter-spacing: 1px;
 	padding: 10px 30px;
+}
+
+.btn_ver_mais:hover {
+	background: rgba(235, 0, 41, .7);
+	color: #fff;
 }
 
 .offers {
