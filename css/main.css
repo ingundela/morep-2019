@@ -288,6 +288,7 @@ h6 {
 	border: 3px solid transparent;
 	transition: ease-in-out 0.1s;
 }
+
 .box-deals:hover {
 	border: 3px solid #eb0029;
 	text-decoration: none;
@@ -331,7 +332,8 @@ h6 {
 	margin-top: 30px;
 	font-weight: 400;
 	letter-spacing: 1px;
-	padding: 10px 30px;
+	padding: 8px 50px;
+	border-radius: 20px;
 }
 
 .btn_ver_mais:hover {
@@ -417,7 +419,6 @@ h6 {
 
 .simple-subscription-form {
 	color: #fefefe;
-
 	border-radius: 0;
 }
 
@@ -432,7 +433,7 @@ h6 {
 }
 
 .input-group-field {
-	padding: 5px 60px;
+	padding: 5px 90px;
 }
 
 .button {
@@ -440,6 +441,11 @@ h6 {
 	background: linear-gradient(to right, #e5097a, #6d22e9, #00d7c7);
 	color: #fff;
 	border: none;
+	cursor: pointer;
+}
+
+.button:focus {
+	outline: none;
 }
 
 .subscribe i {
@@ -469,4 +475,61 @@ h6 {
 }
 .redes a {
 	color: #fff;
+}
+
+/*--------- THE ABOUT PAGE -------------*/
+
+.about_image {
+	background: linear-gradient(rgba(0, 102, 204, 0.7), rgba(0, 102, 204, 0.7)), url('../img/banner3.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.about_image h1 {
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.values_morep {
+	background-color: #f5f5f5;
+	-webkit-box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px -6px 18px -10px rgba(0, 0, 0, 0.75);
+}
+
+.vision_color {
+	color: #eb0029;
+}
+
+.vision {
+	padding-bottom: 20px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.line_break {
+	border: 1px solid #d9d9d9;
+	margin: 50px 0;
+}
+
+.mission p {
+	line-height: 2;
+}
+
+.mission i {
+	font-size: 10px;
+	color: #eb0029;
 }
